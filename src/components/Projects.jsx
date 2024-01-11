@@ -30,7 +30,7 @@ const projectsData = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./MorseCode.png.png",
+    image: "/MorseCode.png.png",
     source_code_link: "https://khalid13546.github.io/Morsecode/",
   },
   {

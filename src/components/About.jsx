@@ -1,39 +1,37 @@
-import navLinks from "./Tech";
-import StarWrapper from "./Tech";
 const About = () => {
   const technologies = [
     {
       name: "HTML 5",
-      icon: "./html.png",
+      icon: "src/html.png",
     },
     {
       name: "CSS 3",
-      icon: "./css.png",
+      icon: "src/css.png",
     },
     {
       name: "JavaScript",
-      icon: "./javascript.png",
+      icon: "src/javascript.png",
     },
     {
       name: "TypeScript",
-      icon: "./typescript.png",
+      icon: "src/typescript.png",
     },
     {
       name: "React JS",
-      icon: "reactjs.png",
+      icon: "src/reactjs.png",
     },
 
     {
       name: "Tailwind CSS",
-      icon: "tailwind.png",
+      icon: "src/tailwind.png",
     },
     {
       name: "Redux",
-      icon: "redux.png",
+      icon: "src/redux.png",
     },
     {
       name: "Git",
-      icon: "git.png",
+      icon: "src/git.png",
     },
   ];
   const TechGrid = () => {
