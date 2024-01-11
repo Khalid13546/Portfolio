@@ -30,7 +30,7 @@ const projectsData = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/MorseCode.png.png",
+    image: "src/MorseCode.png.png",
     source_code_link: "https://khalid13546.github.io/Morsecode/",
   },
   {
@@ -48,7 +48,7 @@ const projectsData = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./Screenshot (4).png",
+    image: "src/Screenshot (4).png",
     source_code_link: "https://khalid13546.github.io/Arsenal-Football-Quiz/",
   },
 ];
@@ -87,7 +87,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src="github.png"
+                src="src/github.png"
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />

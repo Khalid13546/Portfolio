@@ -1,25 +1,10 @@
 import React from "react";
-import navLinks from "./Tech";
+
 export default function Contact() {
-  const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "projects",
-      title: "Projects",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  console.log(navLinks);
   return (
     <div className="flex flex-col items-center justify-center mb-10">
       <h3 className="text-white text-5xl mb-8 flex items-center justify-center">
-        {navLinks[2].title}
+        Contact
       </h3>
       <form className="bg-purple-950 shadow-md rounded px-10 pt-10 pb-10 mb-4">
         <div className="mb-4">
