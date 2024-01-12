@@ -23,7 +23,7 @@ const Hero = () => {
           className="absolute bottom-30 right-0 m-4 bg-inherit"
         >
           <img
-            src="./src/components/github.png"
+            src="./components/github.png"
             className="h-20 w-20 rounded-full ml-4 right-0 flex"
             alt="Github"
           />
@@ -35,7 +35,7 @@ const Hero = () => {
           className="absolute bottom-10 right-0 m-4"
         >
           <img
-            src="src/download.png"
+            src="./components/download.png"
             className="h-20 w-20 rounded-full ml-4 right-0 flex bg-white"
             alt="Linkedin"
           />

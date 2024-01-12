@@ -2,36 +2,36 @@ const About = () => {
   const technologies = [
     {
       name: "HTML 5",
-      icon: "./src/html.png",
+      icon: "./components/html.png",
     },
     {
       name: "CSS 3",
-      icon: "./src/css.png",
+      icon: "./components/css.png",
     },
     {
       name: "JavaScript",
-      icon: "./src/javascript.png",
+      icon: "./components/javascript.png",
     },
     {
       name: "TypeScript",
-      icon: "./src/typescript.png",
+      icon: "./components/typescript.png",
     },
     {
       name: "React JS",
-      icon: "./src/reactjs.png",
+      icon: "./components/reactjs.png",
     },
 
     {
       name: "Tailwind CSS",
-      icon: "./src/tailwind.png",
+      icon: "./components/tailwind.png",
     },
     {
       name: "Redux",
-      icon: "./src/redux.png",
+      icon: "./components/redux.png",
     },
     {
       name: "Git",
-      icon: "./src/components/git.png",
+      icon: "./components/git.png",
     },
   ];
   const TechGrid = () => {
