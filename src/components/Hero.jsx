@@ -23,7 +23,7 @@ const Hero = () => {
           className="absolute bottom-30 right-0 m-4 bg-inherit"
         >
           <img
-            src="./components/github.png"
+            src="./images/github.png"
             className="h-20 w-20 rounded-full ml-4 right-0 flex"
             alt="Github"
           />
