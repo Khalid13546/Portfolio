@@ -7,13 +7,13 @@ import {
   useNavigate,
   BrowserRouter,
 } from "react-router-dom";
-import Navbar from "./src/components/Navbar";
-import Contact from "./src/components/Contact";
-import Hero from "./src/components/Hero";
-import Projectcard from "./src/components/Projects";
-import About from "./src/components/About";
+import Navbar from "./public/components/Navbar";
+import Contact from "./public/components/Contact";
+import Hero from "./public/components/Hero";
+import Projectcard from "./public/components/Projects";
+import About from "./public/components/About";
 import "./index.css";
-import StarsCanvas from "./src/components/Star";
+import StarsCanvas from "./public/components/Star";
 
 const App = () => {
   const scrollToSection = (sectionId) => {
