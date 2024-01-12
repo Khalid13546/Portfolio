@@ -2,42 +2,41 @@ const About = () => {
   const technologies = [
     {
       name: "HTML 5",
-      icon: "./components/html.png",
+      icon: "./images/html.png",
     },
     {
       name: "CSS 3",
-      icon: "./components/css.png",
+      icon: "./images/css.png",
     },
     {
       name: "JavaScript",
-      icon: "./components/javascript.png",
+      icon: "./images/javascript.png",
     },
     {
       name: "TypeScript",
-      icon: "./components/typescript.png",
+      icon: "./images/typescript.png",
     },
     {
       name: "React JS",
-      icon: "./components/reactjs.png",
+      icon: "./images/reactjs.png",
     },
 
     {
       name: "Tailwind CSS",
-      icon: "./components/tailwind.png",
+      icon: "./images/tailwind.png",
     },
     {
       name: "Redux",
-      icon: "./components/redux.png",
+      icon: "./images/redux.png",
     },
     {
       name: "Git",
-      icon: "./components/git.png",
+      icon: "./images/git.png",
     },
   ];
   const TechGrid = () => {
     return (
       <div className="grid grid-cols-4 gap-4">
-        <img src="./components/git.png" />
         {technologies.map((tech, index) => (
           <div
             key={index}

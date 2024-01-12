@@ -35,7 +35,7 @@ const Hero = () => {
           className="absolute bottom-10 right-0 m-4"
         >
           <img
-            src="./components/download.png"
+            src="./images/download.png"
             className="h-20 w-20 rounded-full ml-4 right-0 flex bg-white"
             alt="Linkedin"
           />
