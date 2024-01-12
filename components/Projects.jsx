@@ -30,7 +30,7 @@ const projectsData = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/MorseCode.png.png",
+    image: "./components/MorseCode.png.png",
     source_code_link: "https://khalid13546.github.io/Morsecode/",
   },
   {
@@ -48,7 +48,7 @@ const projectsData = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/Screenshot (4).png",
+    image: "./components/Screenshot (4).png",
     source_code_link: "https://khalid13546.github.io/Arsenal-Football-Quiz/",
   },
 ];
